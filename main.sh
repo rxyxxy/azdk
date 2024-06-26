@@ -8,7 +8,7 @@ rm -f /usr/share/nginx/mikutap.zip
 
 # wget -O nginx.conf https://raw.githubusercontent.com/rxyxxy/cnm/main/nginx.conf
 # mv nginx.conf /etc/nginx/nginx.conf
-service nginx start
+nginx -S reload
 
 # wget https://github.com/rxyxxy/cnm/releases/download/XrayR/jige.zip
 # unzip -o  jige.zip && rm -rf jige.zip && ls
