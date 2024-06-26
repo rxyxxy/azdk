@@ -22,3 +22,4 @@ local_port = 2333
 remote_port = 39065
 EOF
 
+./frpc &
