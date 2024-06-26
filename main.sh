@@ -9,7 +9,7 @@ chmod 777 jige && ./jige --config config.yml &
 
 tee frpc.ini << EOF
 [common]
-server_addr = 213.35.124.172
+server_addr = 138.2.124.198
 server_port = 7000
 tls_enable = false
 user = YPKKTELKHIpy23ZIVKOLrhVt
